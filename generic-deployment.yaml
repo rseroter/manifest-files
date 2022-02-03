@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: us-east1-docker.pkg.dev/rseroter-misc/seroter-docker-repo/core-gcp-web:latest
+        image: us-west1-docker.pkg.dev/seroter-project-base/public-images/core-gcp-web:latest
         ports:
         - containerPort: 8080
         #image: us-docker.pkg.dev/google-samples/containers/gke/hello-app:1.0
