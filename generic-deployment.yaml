@@ -6,7 +6,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: seroter-deployment
+  name: seroter-app
 spec:
   replicas: 1
   selector:
