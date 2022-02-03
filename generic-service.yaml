@@ -6,11 +6,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-world-svc
+  name: seroter-app-service
 spec:
   type: LoadBalancer
   selector:
-    app: hello-world
+    app: seroter-app
   ports:
   - name: http-web
     port: 80
