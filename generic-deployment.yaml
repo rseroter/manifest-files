@@ -11,11 +11,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: hello-world
+      app: seroter-app
   template:
     metadata:
       labels:
-        app: hello-world
+        app: seroter-app
     spec:
       containers:
       - name: server
